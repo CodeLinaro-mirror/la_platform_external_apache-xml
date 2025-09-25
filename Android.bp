@@ -57,10 +57,7 @@ filegroup {
 java_library {
     name: "apache-xml",
     visibility: [
-        "//art/build/apex",
-        "//art/build/sdk",
-        "//art/tools/ahat",
-        "//art/tools/fuzzer",
+        "//art:__subpackages__",
         "//libcore",
         "//packages/modules/ArtPrebuilt",
     ],
